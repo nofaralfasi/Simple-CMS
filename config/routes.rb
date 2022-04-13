@@ -3,5 +3,7 @@ Rails.application.routes.draw do
 
   get 'demo/index'
 
-  # get ':controller(/:action(/:id))'
+  get 'play/index'
+
+  get ':controller(/:action(/:id))'
 end
