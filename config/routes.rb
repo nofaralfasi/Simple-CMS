@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
   get 'demo/index'
   get 'demo/hello'
+  get 'demo/contact'
+  get 'demo/about'
 
   get 'play/index'
 
