@@ -27,7 +27,7 @@ class DemoController < ApplicationController
       @phone_number = "+1 (987) 654-3210"
     end
 
-    render('contact_us')
+    render(:template => 'demo/contact_us')
   end
 
 end
